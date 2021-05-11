@@ -15,12 +15,13 @@ disponíveis offline para consulta.
 
 #### 1. Livre de cálculos no final do mês.
 
-     O sistema irá calcular todos os gastos e despesas do usuário durante o mês, retornando o valor total gasto durante o mês.
+     O sistema irá calcular todos os gastos e despesas do usuário durante o mês, retornando o valor total gasto
+     durante o mês.
 #### 2. Controle de gastos.
     
-     Será possível definir um orçamento para um determinado mês, sempre que necessário o usuário pode conferir o quanto ainda pode 
-     ser gasto do seu orçamento.
+     Será possível definir um orçamento para um determinado mês, sempre que necessário o usuário pode conferir o quanto ainda 
+     pode ser gasto do seu orçamento.
 #### 3. Controle no parcelamento de compras no cartão de crédito.
      Comprou parcelado? Não precisa se preocupar caso se perca no número de parcelas. O usuário terá total controle caso tenha 
-     comprado parcelado. Informações como: número de parcelas, total de parcelas pagas e valor de cada parcela, serão mostradas para
-     o usuário.
+     comprado parcelado. Informações como: número de parcelas, total de parcelas pagas e valor de cada parcela, serão mostradas 
+     para o usuário.
