@@ -10,8 +10,8 @@ public class Menu {
     //Cria o menu principal da aplicação
     public void exibeMenu(){
         System.out.println(">>> Bem-vindo(a) ao menu inicial <<<");
-        System.out.println("[1] Para Cadastrar Dívida");
-        System.out.println("[2] Para Ver Pendegas");
+        System.out.println("[1] Para Inserir Despesa");
+        System.out.println("[2] Para Verificar Gastos");
         System.out.println("[3] Para Sair");
     }
 
@@ -20,19 +20,17 @@ public class Menu {
     public void exibeSubMenu(int op) throws IOException {
         switch (op){
             case 1: //Opção que escreve no arquivo
-                System.out.println("Entrou 1");
-                Gastos gastos = new Gastos();
+                //System.out.println("Entrou 1");
+                //Gastos gastos = new Gastos();
                // gastos.preencheDados();
-               File t = new File("Teste.txt");
+                File t = new File("Teste.txt");
                 Escrita escreve = new Escrita();
                 escreve.preenche();
                 escreve.testando(); //Metodo para teste será retirado depois
                 escreve.escreveNoArquivo(t);
 
-
                 break;
             case 2:
-                System.out.println("Entrou");
                 File f = new File("Teste.txt");
                 Leitura esc = new Leitura();
                 esc.teste(f);

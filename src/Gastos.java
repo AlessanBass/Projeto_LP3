@@ -16,16 +16,12 @@ public class Gastos {
 
     public void preencheDados(){ //Metodo incompleto, deverá ainda ter uma relçao com  outra classe
         Scanner ler = new Scanner(System.in);
-        int op;
-        System.out.println("Informe o nome da divida");
+
+        System.out.println("Informe o nome da despesa:");
         this.nome = ler.next();
         System.out.println("Informe o nome valor");
         this.valor = ler.next();
         System.out.println("Foi parcelado? 1-Sim/ 2-Não");
-        op = ler.nextInt();
-        if (op == 1){
-
-        }else System.out.println("Brabo compra na marra");
 
     }
 
