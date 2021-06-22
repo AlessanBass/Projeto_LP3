@@ -1,2 +1,4 @@
-package Controles;public class ControleEscrita {
+package Controles;
+
+public class ControleEscrita {
 }

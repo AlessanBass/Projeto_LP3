@@ -1,2 +1,4 @@
-package Controles;public class ControleGasto {
+package Controles;
+
+public class ControleGasto {
 }

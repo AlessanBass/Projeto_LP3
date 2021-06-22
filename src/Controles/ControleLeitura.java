@@ -1,2 +1,4 @@
-package Controles;public class ControleLeitura {
+package Controles;
+
+public class ControleLeitura {
 }
