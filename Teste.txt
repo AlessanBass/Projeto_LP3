@@ -3,3 +3,4 @@ Shopping;150.00;2;0;
 Açai;6.50;1;1;
 Chiclete;0.20;1;1;
 Fones;100;2;1;
+Passagem;3.30;1;1;
