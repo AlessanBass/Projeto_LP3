@@ -1,4 +1,4 @@
-package Visões;
+package visoes;
 
 public class VisaoEscrita {
 }

@@ -1,4 +1,4 @@
-package Controles;
+package controles;
 
 public class ControleGastoParcelado {
 }
