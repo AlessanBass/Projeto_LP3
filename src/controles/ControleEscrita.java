@@ -13,11 +13,15 @@ public class ControleEscrita {
         System.out.println("Parcelas pagas: "+ pp);
     }*/
 
+    /*
+    * Método resposável por salvar os dados no arquivo.
+    * Recebe os dados vindos da class VisaoGasto e os manipula.
+    */
     public void escreveNoArquivo(String nomeDoGasto, String valorDoGasto, String numParcelas, String parcelasPgas) throws IOException {
-        File arq = new File("Teste.txt");
-        FileWriter fw = new FileWriter(arq, true);
-        fw.write(nomeDoGasto);
-        fw.write(";");
+        File arq = new File("Teste.txt"); //Abre o arquivo onde será o nosso "Banco de Dados"
+        FileWriter fw = new FileWriter(arq, true); //Objeto que contém o método de escrita
+        fw.write(nomeDoGasto); //Escreve os dados recebidos
+        fw.write(";"); //Paramêtro usado para recuperar dados salvos no arquivo na class "Leitura"
         fw.write(valorDoGasto);
         fw.write(";");
         fw.write(numParcelas);
@@ -25,8 +29,8 @@ public class ControleEscrita {
         fw.write(parcelasPgas);
         fw.write(";");
         fw.write("\n");
-        fw.flush();
-        fw.close();
+        fw.flush(); //Descarrega o fluxo de dados
+        fw.close(); //Fecha os arquivo
     }
 
 }

@@ -1,6 +1,7 @@
 package visoes;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class VisaoLeitura {
     public VisaoLeitura (){
@@ -8,10 +9,15 @@ public class VisaoLeitura {
     }
 
     public void leituraDeArquivo() throws IOException {
-        File arq = new File("Teste.txt");
-        FileReader fr = new FileReader(arq);
-        BufferedReader br = new BufferedReader(fr);
-        double soma = 0;
+        File arq = new File("Teste.txt"); //Abre o arquivo
+        FileReader fr = new FileReader(arq); //Objeto com métodos para auxiliar na leitura
+        BufferedReader br = new BufferedReader(fr); //Objeto com métodos para auxiliar na leitura
+        double soma = 0; //Variável que será usada para somar o valor final (total)
+
+        /*
+        * Começo da leitura do arquivo.
+        * Todos os procedimentos de leitura já foram explicados em um issue no Github.
+        */
         while (br.ready()){
             String linha = br.readLine();
             String [] separador = linha.split(";");
@@ -33,6 +39,6 @@ public class VisaoLeitura {
             System.out.println("-----------------------------");
         }
         System.out.printf("=== Valor Total: R$ %.2f ===\n\n",soma);
-        br.close();
+        br.close(); //Fecha o arquivo
     }
 }

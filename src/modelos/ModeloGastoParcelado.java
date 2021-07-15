@@ -15,6 +15,7 @@ public class ModeloGastoParcelado extends ModeloGastos{
         this.parcelasPagas = parcelasPagas;
 
     }
+    //Método responsável por preencher os dados caso tenha sido parcelado
     public void preenche (){
         Scanner ler = new Scanner(System.in);
         System.out.println("Em quantas parcelas:");
