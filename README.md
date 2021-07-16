@@ -50,6 +50,8 @@ A execução do programa é encerrada. E uma mensagem de agradecimento é exibid
 ### Como instalar ?
 Para fazer o download do arquivo executável basta clicar no link: [Download](https://drive.google.com/file/d/1qt_VRadlUTeKobowNAh-fyNGRIy0urik/view?usp=sharing)
 
+**Vídeo auxiliar com o procedimento de como executar o arquivo:** [Como rodar o arquivo](https://youtu.be/wBzTe57JVVU)
+
 Após fazer o download localizar a pasta onde o arquivo foi baixado.
 
 Pressione a tecla **Windows** e digite **cmd**. O prompt de comando será aberto.
