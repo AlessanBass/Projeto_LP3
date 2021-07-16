@@ -19,6 +19,7 @@ public class VisaoGasto {
         ModeloGastos modeloGastos = new ModeloGastos(); //Criação de objeto
         int op = 0; //Variável que vai conter uma opção informada pelo usuário
 
+        System.out.println("=== CADASTRO DE DESPESA ===");
         System.out.println("Informe o nome da despesa:"); //Informes sobre o que o usuário precisa informar
         modeloGastos.setNome(ler.nextLine()); //Captura de dados do usuário
         System.out.println("Informe o nome valor:");

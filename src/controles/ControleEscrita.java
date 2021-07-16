@@ -31,6 +31,7 @@ public class ControleEscrita {
         fw.write("\n");
         fw.flush(); //Descarrega o fluxo de dados
         fw.close(); //Fecha os arquivo
+        System.out.println("Despesa cadastrada com sucesso!");
     }
 
 }
