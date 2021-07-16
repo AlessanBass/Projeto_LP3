@@ -12,13 +12,13 @@ Os dados serão armazenados em um arquivo .dat que será guardado localmente. As
 disponíveis offline para consulta.
 
 ## Decisões de Design
-### Definação de Classes
-* **Gastos:**  -> Classe reponsável por manipular tudo referente aos gastos do usuário. Como por exemplo: Nome do gasto, valor do gasto, quantidade de parcelas(caso tenha sido parcelado), valor de cada parcela e etc.
-* **Pessoa:** -> Candidata para ser uma classe abstrata. Nela é feito o molde para a criação do perfil do usuário.
-*  **Usuário:** -> Classe que herdará Pessoa, ela será especificada.
-*  **Escritor:** -> Classe que vai manipular os arquivos, será a responsável por escrever os dados inseridos pelo usuário em um arquivo .dat. (Atualmente estudando sobre arquivos em Java), muito provável que essa classe sofra alterações para a sua melhor implemantação.
-*   **Leitura:** -> Classe que vai ler o arquivo com os dados. Nela será feito os cálculos de gastos totais durante o mês, lendo do arquivo os gastos e somando até obter o gasto total. Pois sempre que for adicionado um novo gasto ou despesa o cálculo deve ser feito novamente para ser mostrado ao usuário.
-*   **Menu:** -> Classe que serve como "Interface gráfica", mostrará opções para o usuário e de acordo com a sua escolha executará determinada tarefa.
+### Definação de Classes -> Arquitetura do projeto
+Projeto está estruturado utilizando o padrão MVC.
+* **Pacote modelos**  -> Contém as classes que criam os modelos dos objetos que serão utilizados durante a execução do programa.
+* **Pacote visoes** -> Contém as classes que interagem com o usuário mostrando opções e exibindo resultados.
+*  **Pacote controles** -> Contém as classes que possuem a lógica para realizar tarefas de acordo com as informações fornecidas pelo usuário.
+
+### Sistema em funcionamento
 
 ### Qual as principais vantagens de usar esse sistema?
 
