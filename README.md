@@ -31,6 +31,8 @@ O usuário pode navegar pelo sistema digitando os números correspondentes a op�
 Ao escolher a opção 1 o programa entra na parte de cadastrar uma despesa. Basta apenas informar os dados pedidos na tela:
 
    ![Ex_Digito_1](https://github.com/AlessanBass/Projeto_LP3/blob/master/Ex_Digito_1.png)
+   
+**ATENÇÃO: Ao colocar valores fracionários (Ex: R$ 22.50) utilizar o "." para separar a parte inteira da parte fracionária. Caso utilize "," o programa vai acusar erro, pois o Java reconhece o "." como o operador de números fracionários.**
     
 Ao preecher o nome e o valor da despesa o usuário vai se deparar com uma mensagem perguntando se a compra foi parcelada ou não. Caso tenha sido parcelado basta informar o número de parcelas e a quantidade de parcelas pagas (caso alguma parcela já tenha sido paga).
 
