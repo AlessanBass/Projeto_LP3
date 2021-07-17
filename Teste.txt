@@ -1,2 +1,1 @@
-Açai Centro;12.00;2;1;
-Oi Vico;30.00;1;1;
+Teste de Funcionamento;10.00;1;1;
